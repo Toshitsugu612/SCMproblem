@@ -1,0 +1,26 @@
+{
+  "name": "scmproblem",
+  "version": "0.1.0",
+  "description": "Fleetbase-based transportation route optimization UI",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "fleetbase-integration"
+  ],
+  "keywords": [
+    "scm",
+    "supply-chain",
+    "route-optimization",
+    "logistics",
+    "fleetbase"
+  ],
+  "author": "Toshitsugu612",
+  "license": "MIT"
+}
